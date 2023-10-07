@@ -1,0 +1,67 @@
+.MainPageContainer{
+    height: 90vh;
+    overflow: scroll
+}
+.MainPageRow{
+    text-align: center;
+    justify-content: left;
+}
+.card{
+    border-radius: 0%;
+    align-items: center;
+}
+
+.card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.sex_field{
+    color: white;
+    background-color: #000103;
+    padding: 2px;
+    margin: 0px;
+    
+}
+
+.cardTitle{
+    font-size: x-large;
+}
+
+.link{
+    outline: none;
+    text-decoration: none;
+    color: #000103;
+    margin: 0;
+    padding: 0;
+}
+
+.link:hover{
+    outline: none;
+    text-decoration: none;
+    color: #000103;
+    text-shadow: 0px 0px 1px #000103;
+}
+@keyframes scrollTopAnitmation {
+    from {top: 90%;}
+    to {top: 89.9%;}
+}
+
+.scrollTop{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    border: none;
+    background-color: transparent;
+    animation: scrollTopAnitmation 1s linear 2s infinite ;
+}
+.numberOfProducts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.numberOfProducts > p{
+    padding: 0 10% 0 0;
+    margin: 0;
+}
+

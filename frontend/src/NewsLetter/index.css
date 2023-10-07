@@ -1,0 +1,20 @@
+.newsletter{
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 5%;
+    padding: 3%
+    
+}
+
+.newsletter_text{
+    padding: 2%;
+    text-align: center;
+}
+
+.top_text_newsletter{
+    font-size: 32px
+}
+.bottom_text_newsletter{
+    font-size: 20px
+}

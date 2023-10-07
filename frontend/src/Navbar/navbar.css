@@ -1,0 +1,19 @@
+.Brand{
+    font-size: 32px;
+}
+.black-dropdown .nav-link {
+    color: black !important;
+    font-size: 25px !important;
+  }
+.navbar_dropdown_item:focus{
+    background-color:#000103;
+    color: white;
+}
+
+.navbar{
+    background-color:  white !important;
+}
+
+.toggler:focus{
+    box-shadow: none;
+}

@@ -1,0 +1,30 @@
+.paymentResultContainer{
+    background-image: url("../../public/paymentResultBackground.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.paymentResultDiv{
+    text-align: center;
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .paymentResultDiv{
+        margin-top: 50%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    .paymentResultDiv{
+        margin-top: 35%;
+    }
+  }
+
+.paymentResultLink {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 20px black;
+}

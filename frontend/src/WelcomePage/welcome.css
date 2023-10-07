@@ -1,0 +1,42 @@
+.welcome-container{
+    background-image: url("../../public/welcome_page_image.jpg") ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000103;
+}
+.welcome-text{
+    font-size: 52px;    
+    padding: 20px;
+    color: #000103;
+    text-shadow: 10px 10px 10px white;
+}
+
+.welcome-button{
+    padding: 15px 30px;
+    transform: skew(-20deg);
+    color: #000103;
+    font-size: 32px;
+    text-shadow: 5px 5px 10px white;
+    box-shadow: 10px 10px 10px white;
+    background-color: #000103;
+    color: white;
+    border: none;
+}
+
+
+.welcome_link{
+    outline: none;
+    color: #000103;
+    text-decoration: none;
+}
+.welcome_link:hover{
+    color: white;
+}
+
+

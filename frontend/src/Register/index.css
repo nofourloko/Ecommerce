@@ -1,0 +1,28 @@
+
+.loginAndRegisterCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .loginAndRegisterCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 0%;
+    }
+    .registerContainer{
+        padding: 5%;
+    }
+    .formRegister{
+        margin-left: 5%;
+    }
+  }
+
+

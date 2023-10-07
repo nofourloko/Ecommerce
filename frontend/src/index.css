@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Teko', sans-serif;
+    scroll-behavior: smooth;
+}
+
+input[type = "text"], input[type = "text"]:focus {
+    background-color: transparent;
+}
+
+input[type = "number"], input[type = "number"]:focus {
+    background-color: transparent;
+}
+
+
+select {
+    border: 1px solid #fff;
+    background-color: transparent;
+}

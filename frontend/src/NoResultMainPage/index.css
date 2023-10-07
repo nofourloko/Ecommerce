@@ -1,0 +1,25 @@
+.noResultContainer{
+    height: 100vh;
+}
+
+.noResultTextDiv{
+    border: 1px solid black;
+    text-align: center;
+    margin: 10% auto;
+    font-size: 50px;
+    width: 90%;
+}
+.linkNoResult{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+
+.linkNoResult:hover{
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    font-size: 35px;
+}

@@ -1,0 +1,112 @@
+.orderHistroyBackGround{
+    background-image: url("../../public/ordersBackground.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.accountDiv{
+    height: 100%;
+    background-image: url("../../public/accountBackground.jpg");
+    background-size: cover;
+}
+
+
+.buttonAccountRow{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: auto 0;
+    font-size: 20px;
+}
+
+.ShippingDataContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-shopping-data{
+    width: 100%;
+}
+/* 
+@media only screen and (max-width: 600px) {
+    .ShippingDataContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding:  0% 20%;
+
+    }
+
+  } */
+
+.MyAdressCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dotted black;
+    padding: 10px;
+    border-radius: 2%;
+    width: 50%;
+}
+
+
+
+
+.MyAdressCol > ul{
+    padding: 0;
+    text-align: center;
+}
+.MyAdressColButtons{
+    width: 100%;
+}
+.MyAdressColButtons > button{
+    width: 45%;
+}
+
+.returnToAccountPage{
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 32px ;
+    margin-top: 2%;
+
+}
+.returnToAccountPageColRight, .returnToAccountPageColLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.LinkReturnPage{
+    margin-top: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+.LinkReturnPage:hover{
+    color: black;
+}
+
+
+@media screen and (max-width: 992px) {
+    .MyAdressCol{
+        width: 100%;
+    }
+    .LinkReturnPage{
+        margin-top: 5%;
+    }
+  }
+.orderHistroyProductsList{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    width: 110%;
+    overflow: scroll;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}

@@ -1,0 +1,223 @@
+.backGroundCartContainer{
+    background-image: url("../../public/cartBackGround.jpg");
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cartContainer{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.productRow,.priceRow{
+    width: 80%;
+    margin: 0px auto;
+    border-bottom: 1px solid black;
+}
+.accountRowSingedIn,.accountRowNew{
+    padding: 3% 3%;
+    margin: 0px auto;
+}
+.accountRowSingedIn > input{
+    width: 300px;
+}
+.formLogin > input{
+    width: 300px;
+}
+.accountRowNew{
+}
+.priceRow{
+    padding-top: 4%;
+    border-bottom: none;
+}
+.backLink{
+    border-bottom: none;
+}
+
+.leftProductItem{
+    display: flex;
+    direction: row;
+    align-items:center;
+    justify-content: left;
+    margin-bottom: 2%;
+}
+.rightProductItem{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 2%;
+    height: 100%;
+    font-size: 42px;
+}
+
+
+
+.leftProductItem_div{
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+}
+
+.leftProductItem_div > p{
+    margin: 0;
+    padding: 0;
+}
+.productTitle{
+    font-size: 32px;
+}
+
+.productSize{
+    font-size: 20px;
+}
+.formDiscount{
+    border: none;
+}
+
+.formDiscount:hover{
+    border: none;
+}
+
+.divPriceInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    font-size: 20px;
+    gap: 20%;
+}
+.totalPrice{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.goBackLinkDiv{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+}
+
+.goBackLinkDiv > p{
+    text-decoration:none;
+    outline: none;
+    font-size: 30px;
+}
+
+.goBackLink {
+    text-decoration: none;
+    outline: none;
+}
+.quantity{
+    text-align: center;
+    width: 50%;
+    background-color: white !important;
+    margin: 0%;
+}
+
+.quantity_update_div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    padding-top: 10%;
+}
+
+.quantity_update_div_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 0 5%;
+}
+
+.quantityButton{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 50%;
+}
+
+.showLoginButton:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:992px) {
+    .rightProductItem{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 2%;
+        height: 100%;
+        border-top: 1px solid black;
+    }
+    .productRow{
+        width: 80%;
+        margin: 4% auto;
+        border-bottom: none;
+    }
+    .MyAdressColCheckout{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .shipmentFormDiv{
+        width: 90%;
+        display: flex;
+        gap: 5%;
+        height: 60px;
+        align-items: center;
+    }
+    
+}
+.fastshoppingRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: bottom;
+}
+
+.addressSelect, .addressSelect:focus{
+    width: 50%;
+    margin-left: 5%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.MyAdressColCheckout{
+    margin: 10% 10% 0% 10%;
+}
+
+.shipmentForm{
+    display: flex;
+    gap: 5%;
+    height: 60px;
+    align-items: center;
+}
+.shipmentFormDiv{
+    width: 70%;
+    display: flex;
+    gap: 5%;
+    height: 60px;
+    align-items: center;
+}
+
+.shipmentFormInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: left;
+}
+
+.shipmentFormInfo>p{
+    margin: 0;
+}
+
